@@ -4,12 +4,17 @@
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
 
+html{
+	font-size: 16px;
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	/*flexbox properties*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 1em;
 }
 
 .container{
@@ -37,7 +42,7 @@ header {
 	height: 70px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
-	font-size: 14px;
+	font-size: .875em /*14px*/;
 	/*flexbox properties*/
 	display: flex;
 	justify-content: center;
@@ -161,7 +166,10 @@ footer span {
 	}
 
 	/*---------------HEADER STYLES---------------*/
-
+	header{
+		font-size: 1.125em;
+		height: 100px;
+	}
 
 	/*---------------BOTTOM-SECTION STYLES---------------*/
 	.section-one,
@@ -194,27 +202,27 @@ footer span {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875em/*30px*/;
 }
 h2 {
-    font-size: 24px;
+    font-size: 1.5em/*24px*/;
 }
 h3 {
-	font-size: 18px;
+	font-size: 1.125em/*18px*/;
 }
 h4 {
-	font-size: 12px;
+	font-size: .75em/*12px*/;
 }
 
 p {
-	font-size: 14px;
-	line-height: 21px;
+	font-size: .875em/*14px*/;
+	line-height: 1.3125em/*21px*/;
 }
 
 
 /*---------------HEADER STYLES---------------*/
 header nav ul li {
-	font-size: 14px;
+	font-size: .875em/*14px*/;
 }
 
 header h1 {
@@ -245,8 +253,8 @@ header nav ul li {
 
 .main-title p {
 	padding: 0;
-	font-size: 16px;
-	line-height: 25px;
+	font-size: 1em/*16px*/;
+	line-height: 1.5625em/*25px*/;
 }
 
 .main-title {
@@ -262,24 +270,28 @@ header nav ul li {
 }
 
 .reviews {
-	font-size: 16px;
-	line-height: 21px;
+	font-size: 1em/*16px*/;
+	line-height: 1.3125em/*21px*/;
 }
 
 .address {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1em/*16px*/;
+	line-height: 1.5em/*24px*/;
 }
 
 .section-two h4,
-.section-three h4 {
+.section-three h4,
+.section-two p,
+.section-three p{
 	padding: 10px 30px;
 }
 
 
+
+
 /*---------------FOOTER STYLES---------------*/
 footer span {
-	font-size: 14px;
+	font-size: .875em/*14px*/;
 }
 
 }
