@@ -57,6 +57,7 @@ header h1 span {
 header nav {
 	text-align: center;
 	padding: 20px 0;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
@@ -160,9 +161,7 @@ footer span {
 	}
 
 	/*---------------HEADER STYLES---------------*/
-	header nav {
-	    width: 100%;
-	}
+
 
 	/*---------------BOTTOM-SECTION STYLES---------------*/
 	.section-one,
